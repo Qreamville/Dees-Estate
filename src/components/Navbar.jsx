@@ -4,7 +4,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 const Navbar = () => {
   return (
     <nav className="navbar w-full border-b">
-      <div className="container mx-auto py-3 flex justify-between items-center">
+      <div className="container  py-3 flex justify-between items-center mx-auto">
         <div className="navbar-brand font-bold text-2xl cursor-pointer">
           Dee's Estate
         </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
         <button className="btn bg-blue-800 text-white py-3 px-4 rounded-lg font-bold hover:bg-blue-700 duration-500 hidden sm:block">
           Get Started
         </button>
-        <BiMenuAltRight size={30} className="block md:hidden" />
+        <BiMenuAltRight size={30} className="block md:hidden cursor-pointer" />
       </div>
     </nav>
   );
