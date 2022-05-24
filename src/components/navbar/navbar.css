@@ -1,0 +1,98 @@
+.navbar-brand {
+  font-family: "Oleo Script", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5208px;
+  line-height: 26px;
+  color: #000;
+}
+
+.nav-link,
+.nav-link__menu {
+  gap: 1.5rem;
+}
+
+.nav-link li,
+.nav-link__menu li {
+  font-size: 1rem;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.nav-link__menu li:hover {
+  transform: scale(2);
+}
+
+.btn-navbar,
+.btn-navbar__menu {
+  background-color: var(--bg-primary);
+  font-family: "Space Grotesk", sans-serif;
+  padding: 6px 8px;
+}
+
+.toggle-menu {
+  display: none;
+}
+
+.navbar__menu {
+  display: none;
+}
+
+.nav-link__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 762px) {
+  .toggle-menu {
+    display: block;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .btn-navbar {
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+  .btn-navbar__menu {
+    display: none;
+  }
+
+  .navbar__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn-navbar {
+    display: none;
+  }
+
+  .btn-navbar__menu {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* container */
+@media screen and (min-width: 762px) and (max-width: 800px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 512px) {
+  .container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
