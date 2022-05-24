@@ -1,0 +1,54 @@
+.brand__main {
+  background-color: #fff;
+  box-shadow: 12.3472px 12.3472px 24.6944px rgba(37, 73, 211, 0.05);
+  border-radius: 14.4051px;
+}
+
+.brand__main-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.brand__main-box p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.brand__main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1rem;
+  color: #0f298b;
+  gap: 0.3rem;
+}
+
+.brand__main-text svg {
+  margin-top: 4px;
+}
+
+.btn-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  gap: 0.3rem;
+  background: #2549d3;
+  box-shadow: 12.3472px 12.3472px 24.6944px rgba(0, 0, 0, 0.1);
+  border-radius: 5.14468px;
+  color: #fff;
+}
+
+@media screen and (max-width: 762px) {
+  .brand__main {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
