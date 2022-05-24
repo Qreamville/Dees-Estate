@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-primary: #2549d3;
+  --main-font: "Space Grotexk", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Oleo Script", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5208px;
+  line-height: 26px;
+  color: #000;
+}
+
+.nav-link {
+  gap: 1.5rem;
+}
+
+.nav-link li {
+  font-size: 1rem;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.btn-navbar {
+  background-color: var(--bg-primary);
+  font-family: "Space Grotesk", sans-serif;
+}
+
 @media screen and (min-width: 762px) and (max-width: 800px) {
   .container {
     padding-left: 1rem;
