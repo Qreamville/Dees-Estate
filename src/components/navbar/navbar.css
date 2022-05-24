@@ -21,10 +21,6 @@
   font-family: "Space Grotesk", sans-serif;
 }
 
-.nav-link__menu li:hover {
-  transform: scale(2);
-}
-
 .btn-navbar,
 .btn-navbar__menu {
   background-color: var(--bg-primary);

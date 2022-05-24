@@ -1,0 +1,64 @@
+.hero-title h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.05rem;
+  line-height: 42px;
+  color: #0f298b;
+}
+
+.hero-body p {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.463px;
+  line-height: 21px;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 1.875rem;
+}
+
+.hero-cta button {
+  font-family: "Space Grotesk", sans-serif;
+  background: #2549d3;
+  box-shadow: 12.3472px 12.3472px 24.6944px rgba(0, 0, 0, 0.1);
+  border-radius: 5.14468px;
+  padding: 0.4rem 0.6rem;
+  color: #fff;
+}
+
+.hero-cta svg {
+  color: #2549d3;
+}
+
+.hero__image {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #2549d3;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 762px) and (min-width: 480px) {
+  .hero {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .circle {
+    display: none;
+  }
+}
