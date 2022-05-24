@@ -4,4 +4,9 @@
 
 :root {
   --bg-primary: #2549d3;
+  --bg-color: #fafafa;
+}
+
+body {
+  background-color: var(--bg-color);
 }
