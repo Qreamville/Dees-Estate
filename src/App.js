@@ -1,4 +1,5 @@
 import { Navbar, Hero, Brand, Products } from "./components";
+import Feature from "./components/feature/Feature";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Hero />
       <Brand />
       <Products />
+      <Feature />
     </div>
   );
 }
