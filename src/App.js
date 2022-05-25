@@ -1,4 +1,4 @@
-import { Navbar, Hero, Brand, Products } from "./components";
+import { Navbar, Hero, Brand, Products, Footer } from "./components";
 import Feature from "./components/feature/Feature";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Brand />
       <Products />
       <Feature />
+      <Footer />
     </div>
   );
 }
