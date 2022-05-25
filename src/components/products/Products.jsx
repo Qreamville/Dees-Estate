@@ -8,7 +8,7 @@ import { BsPencilSquare } from "react-icons/bs";
 
 const Products = () => {
   return (
-    <section className="products container mx-auto flex flex-col justify-center items- pt-12">
+    <section className="products container mx-auto flex flex-col justify-center items-center pt-12 md:pt-28">
       <div className="products__title text-center">
         <h3>How it works.</h3>
         <p>This is how our products works</p>
@@ -51,14 +51,14 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="products__creation flex flex-row items-center mt-28 gap-8">
-        <div className="products__creation-image w-2/5">
+      <div className="products__creation flex flex-col md:flex-row items-center mt-28 pt-12 gap-12 justify-center">
+        <div className="products__creation-image flex-grow">
           <img src={home} alt="home" className="max-w-full h-auto" />
         </div>
-        <div className="products__creation-text text-left">
+        <div className="products__creation-text flex flex-col gap-4 justify-c">
           <h4>Why you should choose us.</h4>
           <p>Creating quality urban lifestyles,building stronger communities</p>
-          <div className="creation-box">
+          <div className="creation-box grid grid-cols-2 gap-2">
             <h5 className="flex flex-row items-center gap-3">
               <BsPencilSquare color="#2549D3" />
               <span>World Class</span>

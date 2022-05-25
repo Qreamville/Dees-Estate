@@ -23,8 +23,8 @@
   font-family: "Space Grotesk", sans-serif;
   padding: 1.5rem 1.2rem;
   gap: 26.24px;
-  width: 18rem;
-  height: 22rem;
+  width: 20rem;
+  height: 24rem;
   background: #ffffff;
   box-shadow: 12.3472px 12.3472px 24.6944px rgba(37, 73, 211, 0.05);
   border-radius: 10px;
@@ -41,13 +41,12 @@
   color: #000;
 }
 
-.card-body,
-p {
+.card-body p {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
-  line-height: 16px;
+  line-height: 28px;
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -56,7 +55,7 @@ p {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 32px;
   color: #0f298b;
 }
@@ -65,9 +64,8 @@ p {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 16px;
-  text-align: start;
+  font-size: 1.5rem;
+  line-height: 28px;
   color: rgba(0, 0, 0, 0.81);
 }
 
