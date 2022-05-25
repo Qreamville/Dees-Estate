@@ -1,0 +1,78 @@
+.feature__heading h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 61px;
+
+  color: #0f298b;
+}
+
+.feature__heading p {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 30px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.81);
+}
+
+.feature__btn {
+  display: flex;
+  align-items: center;
+}
+
+.feature__btn button {
+  padding: 9.3434px;
+  gap: 9.34px;
+
+  width: 167.25px;
+  height: 56.06px;
+
+  background: #2549d3;
+  border-radius: 18.6868px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.6868px;
+  line-height: 25px;
+}
+
+.feature__btn button:hover {
+  background-color: #3d5ddd;
+}
+
+.feature__card {
+  font-family: "Space Grotesk", sans-serif;
+  align-items: flex-start;
+  padding: 7.94427px 15.8885px 14.2997px 38.9269px;
+  gap: 17.48px;
+  width: 28rem;
+  height: 20rem;
+  border-radius: 0px 39.7214px;
+}
+
+.feature__card .card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 7rem;
+}
+
+.card-body p:first-child {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 762px) {
+  .feature__card {
+    width: 20rem;
+  }
+
+  .feature__card .card-body {
+    column-gap: 0;
+  }
+}
