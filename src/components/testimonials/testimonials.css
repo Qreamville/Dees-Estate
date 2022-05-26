@@ -1,0 +1,76 @@
+.testimonials__heading h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 61px;
+  color: #0f298b;
+}
+
+.testimonials__heading p {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.81);
+}
+
+.testimonials__btn button {
+  padding: 9.3434px;
+  background: #2549d3;
+  border-radius: 18.6868px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 25px;
+  color: #ffffff;
+
+  width: 167.25px;
+  height: 56.06px;
+}
+
+.testimonials__card {
+  width: 24rem;
+  height: 18rem;
+  border-radius: 18.6868px;
+}
+
+.testimonials__card h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 38px;
+
+  color: #000000;
+}
+
+.testimonials__card h5 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.testimonials__card p {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 29px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials__card {
+    width: 18rem;
+    height: 22rem;
+  }
+}
