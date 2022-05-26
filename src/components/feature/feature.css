@@ -49,9 +49,8 @@
   font-family: "Space Grotesk", sans-serif;
   align-items: flex-start;
   padding: 7.94427px 15.8885px 14.2997px 38.9269px;
-  gap: 17.48px;
-  width: 28rem;
-  height: 20rem;
+  width: 20rem;
+  height: 16rem;
   border-radius: 0px 39.7214px;
 }
 
@@ -60,7 +59,6 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  column-gap: 7rem;
 }
 
 .card-body p:first-child {

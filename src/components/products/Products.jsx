@@ -13,7 +13,7 @@ const Products = () => {
         <h3>How it works.</h3>
         <p>This is how our products works</p>
       </div>
-      <div className="products__cards flex flex-col md:flex-row items-center justify-between gap-9 mt-9">
+      <div className="products__cards flex flex-col md:flex-row items-center justify-between w-full gap-6  mt-9">
         <div className="products__card flex flex-col items-center">
           <div className="card-image">
             <img src={location} alt="" className="max-w-full h-auto" />

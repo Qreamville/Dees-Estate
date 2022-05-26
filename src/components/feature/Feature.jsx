@@ -14,15 +14,15 @@ const Feature = () => {
           most.
         </p>
       </div>
-      <div className="feature__btn my-10 justify-center justify-end">
+      <div className="feature__btn my-10 justify-center md:justify-end">
         <button>View More</button>
       </div>
-      <div className="feature__cards flex flex-col md:flex-row gap-4 justify-center items-center">
+      <div className="feature__cards flex flex-col md:flex-row gap-4 justify-between w-full items-center">
         <div className="feature__card  bg-white flex flex-col">
           <div className="card-image">
             <img src={palace} alt="palace" />
           </div>
-          <div className="card-body">
+          <div className="card-body mt-3">
             <p>The Palace</p>
             <p>Duplex</p>
             <p>Lekki, phase 2</p>
@@ -33,7 +33,7 @@ const Feature = () => {
           <div className="card-image">
             <img src={ivy} alt="palace" />
           </div>
-          <div className="card-body">
+          <div className="card-body mt-3">
             <p>IVY RORY</p>
             <p>Duplex</p>
             <p>Lekki, phase 2</p>
@@ -44,7 +44,7 @@ const Feature = () => {
           <div className="card-image">
             <img src={rexona} alt="palace" />
           </div>
-          <div className="card-body">
+          <div className="card-body mt-3">
             <p>REXONA</p>
             <p>Duplex</p>
             <p>Lekki, phase 2</p>
