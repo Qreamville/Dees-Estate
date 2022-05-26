@@ -6,7 +6,7 @@ import rexona from "../../assets/images/Rexona.png";
 
 const Feature = () => {
   return (
-    <section className="feature container mx-auto p-12 md:mt-28 flex flex-col justify-center">
+    <section className="feature container mx-auto pt-12 md:mt-28 flex flex-col justify-center">
       <div className="feature__heading text-center">
         <h3>Our Featured Properties.</h3>
         <p>

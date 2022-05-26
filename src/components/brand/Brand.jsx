@@ -5,7 +5,7 @@ import { FaChevronDown, FaSearch } from "react-icons/fa";
 const Brand = () => {
   return (
     <section className="brand container mx-auto pt-5">
-      <div className="brand__main flex flex-row justify-between items-center p-5">
+      <div className="brand__main flex flex-row justify-between items-center p-5 mx-0 md:mx-16">
         <div className="brand__main-box">
           <div className="brand__main-text">
             <h4>Locaton</h4>

@@ -8,7 +8,7 @@ import { BsPencilSquare } from "react-icons/bs";
 
 const Products = () => {
   return (
-    <section className="products container mx-auto flex flex-col justify-center items-center pt-12 md:pt-28">
+    <section className="products container mx-auto flex flex-col justify-center items-center pt-12 md:mt-20">
       <div className="products__title text-center">
         <h3>How it works.</h3>
         <p>This is how our products works</p>
